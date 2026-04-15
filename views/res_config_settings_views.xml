@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.stock.picking.pagination</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//app[@name='stock']" position="inside">
+                <block title="Affichage des transferts">
+                    <setting
+                        string="Lignes par page dans les transferts"
+                        help="Nombre de lignes affichées par page dans l'onglet Opérations des bons de livraison (défaut : 80)."
+                    >
+                        <field name="stock_picking_page_size"/>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>

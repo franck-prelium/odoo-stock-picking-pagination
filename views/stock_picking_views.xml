@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--
+        La limite de pagination est appliquée dynamiquement via _get_view
+        dans models/stock_picking.py en lisant ir.config_parameter.
+        Ce fichier est conservé pour référence mais ne contient pas d'override de vue.
+    -->
+</odoo>
