@@ -22,6 +22,4 @@ La valeur est appliquée dynamiquement à chaque ouverture d'un bon de livraison
 - Odoo 19.0
 - Dépendance : `stock`
 
-## Auteur
 
-Prelium — [prelium.fr](https://prelium.fr)
